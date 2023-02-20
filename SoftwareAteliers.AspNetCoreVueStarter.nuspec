@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SoftwareAteliers.AspNetCoreVueStarter</id>
+    <version>3.1.2</version>
+    <description>
+      ASP.NET Core + Vue.js starter project
+      The repository contains an ASP.NET Core + Vue.js starter template. The template runs on ASP.NET Core 5.0 and is created by Vue CLI 4.0 with a new plugin based architecture allowing developers to interactively scaffold a new project with just a one command.
+    </description>
+    <authors>SoftwareAteliers</authors>
+    <projectUrl>https://github.com/SoftwareAteliers/asp-net-core-vue-starter</projectUrl>
+    <license type="expression">MIT</license>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file
+      src="**"
+      exclude="**/node_modules/**;**/bin/**;**/obj/**;**/.vs/**;**/.vscode/**;**/ClientApp/dist/**;**/wwwroot/dist/**;content/Directory.Build.*;**/.git/**"
+      target="Content" />
+  </files>
+</package>
